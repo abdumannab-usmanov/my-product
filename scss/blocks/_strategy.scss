@@ -1,0 +1,125 @@
+.strategy {
+    margin-bottom: 150px;
+    
+}
+
+.strategy__inner {
+    width: 100%;
+    max-width: 1147px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.strategy__content {
+    width: 100%;
+    max-width: 693px;
+    margin-bottom: 32px;
+}
+
+.strategy__title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    color: $black;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.strategy__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: $black;
+    margin: 0;
+}
+
+
+.strategy__corusel{
+    display: flex;
+    
+}
+
+.strategy__wrapper {
+    width: 100%;
+    max-width: 348px;
+    margin: 0 16px;
+    
+}
+
+// .strategy__wrapper--middle{
+    
+    // }
+    
+    
+    .strategy__img{
+        width: 348px;
+        height: 185px;
+        border-radius: 8px 8px 0px 0px;
+    }
+    
+    .strategy__surround{
+        padding: 24px 30px 40px 24px;
+        background: #FFFFFF;
+        border: solid 1px #EEEEEE ;
+        border-top: none;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
+    
+    .strategy__surround--last{
+        padding:24px 20px 40px 24px;
+    }
+    
+    .strategy__author {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px; 
+        color: $black;
+        margin-bottom: 12px;
+    }
+    
+    
+    .strategy__info {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 40px;
+        margin: 0;
+    }
+    .strategy__info--middle {
+        color: $green;
+    }
+    
+    @media only screen and(max-width:521px){
+        .strategy {
+            margin-bottom: 61px;
+            
+        }
+        
+        .strategy__content {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        .strategy__none{
+            display: none;
+        }
+        
+        .strategy__corusel{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+        }
+        
+        .strategy__wrapper {
+            margin: 0;
+            margin-bottom: 16px;
+            
+        }
+        
+        
+        .strategy__surround{
+            padding-left: 0;
+        }
+        
+    }

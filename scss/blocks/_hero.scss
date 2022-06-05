@@ -1,0 +1,122 @@
+.hero {
+    padding-top: 25px;
+    margin-bottom: 114px;
+    
+}
+
+.hero__inner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1131px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero__wrapper {
+    width: 100%;
+    max-width: 518px;
+}
+.hero__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: $black;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+.hero__content{
+    width: 100%;
+    max-width: 458px;
+    margin-bottom: 45px;
+}
+
+.hero__text {
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 0;    
+}
+
+.hero__surrond{
+    display: flex;
+    align-items: center;
+    
+}
+
+.hero__start {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: $white;
+    background-color: $green;
+    border-radius: 4px;
+    margin-right: 56px;
+    padding: 15px 41px;
+    
+}
+.hero__watch {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration:underline;
+    color: $green;
+    position: relative;
+
+    &::before{
+        width: 15px;
+        height: 17px;
+        position: absolute;
+        bottom: 5px;
+        left: -20px;
+        background-image: url("../img/video.svg");
+        background-repeat: no-repeat;
+        background-size: 15px 17px;
+        content: "";
+    }
+}
+
+@media only screen and (max-width:521px){
+
+    .hero {
+        padding-top: 29px;
+        margin-bottom: 116px;
+    }
+
+    .hero__inner {
+       flex-direction: column;
+    }
+
+    .hero__img{
+        order: -1;
+        margin-bottom: 11px;
+    }
+
+    .hero__wrapper {
+        text-align: center;
+    }
+
+
+    .hero__title {
+        font-size: 36px;
+        margin-bottom: 16px;
+    }
+    
+    .hero__content{
+        margin-bottom: 17px;
+    }
+
+    .hero__surrond{
+        flex-direction: column;    
+    }
+
+    .hero__start{
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+}

@@ -1,0 +1,130 @@
+.client {
+    margin-bottom: 150px;
+}
+
+.client__inner {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.client__wrapper{
+    width: 100%;
+    max-width: 537px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+
+.client__title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 57px;
+    color: $black;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.client__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: $black;
+    margin-top: 0;
+}
+
+.feedback {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.feedback__item {
+    width: 100%;
+    max-width: 327px;
+    padding: 62px 26px 23px 26px;
+    background-color: $white;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    position: relative;
+    
+    &::before{
+        width: 106px;
+        height: 18px;
+        position: absolute;
+        top: 28px;
+        left: 28px;
+        background-image: url("../img/stars.svg");
+        background-repeat: no-repeat;
+        background-size: 106px 18px;
+        content: "";
+    }
+}
+
+.feedback__item--middle{
+    margin: 0 65px;
+}
+
+.feedback__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color:#737373;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.feedback__wrapper {
+    width: 100%;
+    max-width: 145px;
+    display: flex;
+    align-items: center;
+}
+
+.feedback__img {
+    margin-right: 14px;
+}
+
+.feedback__content {
+    
+    
+}
+
+.feedback__owner {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: $green;
+}
+
+.feedback__job {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #252B42;
+}
+
+
+@media only screen and(max-width:521px){
+    .client {
+        margin-bottom: 100px;
+    }
+    
+    
+    .client__wrapper{
+        margin-bottom: 32px;
+    }
+    
+    .feedback{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feedback__item--middle{
+        margin: 32px 0;
+    }
+}

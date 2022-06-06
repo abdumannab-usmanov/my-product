@@ -39,6 +39,10 @@
     
 }
 
+.strategy__mobile {
+    display: none;
+}
+
 .strategy__wrapper {
     width: 100%;
     max-width: 348px;
@@ -105,10 +109,15 @@
         }
         
         .strategy__corusel{
-            display: flex;
-            align-items: center;
-            flex-direction: column;
+           display: none;
             
+        }
+
+        .strategy__mobile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
         
         .strategy__wrapper {

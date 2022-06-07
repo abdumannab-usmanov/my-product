@@ -1,0 +1,198 @@
+.about-price {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.about-price__inner {
+    width: 100%;
+    max-width: 1148px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.about-price__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: $black;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.about-price__text {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: $black;
+    margin-top: 0;
+    margin-bottom: 16px;
+    
+}
+
+.about-price__info{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #22343D;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.table {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.table__item {
+    width: 100%;
+    max-width: 322px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    text-align: center;
+    background-color: $white;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    transition: all 0.4s ease;
+}
+
+.table__item--middle{
+    margin: 0 70px;
+}
+
+.table__item:hover{
+    background-color: $green;
+}
+
+.table__item:hover .table__title{
+    color: $white;
+}
+
+.table__item:hover .table__text{
+    color: $white;
+}
+
+.table__item:hover .table__value{
+    color: $white;
+}
+
+.table__item:hover .table__simvol{
+    color: $white;
+}
+
+.table__item:hover .table__info{
+    color: $white;
+}
+
+.table__item:hover .table__btn{
+    color: $green;
+    background-color: $white;
+}
+
+.table__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: $black;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.table__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: $black;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.table__cost {
+    width: 100%;
+    max-width: 154px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    
+}
+.table__value {
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 100px;
+    color: $green;
+    margin-right: 8px;
+}
+
+.table__wrapper {
+    
+}
+.table__simvol {
+    display: block;
+    width: 16px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: $green;
+    margin-bottom: 4;
+}
+.table__period {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #AFAFAF;
+    
+}
+.table__info {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: $black;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.table__info--last{
+    margin-bottom: 38px;
+}
+
+.table__btn {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    padding: 11px 19px;
+    color: $white;
+    background-color: #02897A;
+    border-radius: 8px;
+    border: none;
+}
+
+
+@media only screen and (max-width:521px){
+    
+    .about-price {
+        margin-bottom: 100px;
+    }
+    
+    .about-price__text{
+        margin-bottom: 18px;
+    }
+    
+    .table {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .table__item--middle{
+        margin: 32px 0;
+    }
+}

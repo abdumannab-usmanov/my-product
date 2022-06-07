@@ -1,0 +1,132 @@
+.affers {
+    background-color:#F5F5F5;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    margin-bottom: 150px;
+}
+.affers__inner {
+    width: 100%;
+    max-width: 763px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.affers__wrapper {
+    width: 100%;
+    max-width: 537px;
+    margin: 0 auto;
+    margin-bottom: 93px;
+}
+
+.affers__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: $black;
+    margin-top: 0;
+    
+}
+
+.affers__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.affers__item {
+    width: 100%;
+    max-width: 248px;
+    padding-top: 177px;
+    text-align: center;
+    position: relative;
+
+    &::before{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        background-image: url("../../img/affers2.png");
+        background-repeat: no-repeat;
+        background-size: 150px 150px;
+        content: "";
+    }
+}
+
+
+.affers__item--second{
+    &::before{
+        background-image: url("../../img/affers1.png");   
+    }
+}
+
+// .affers__item + .affers__item{
+//     margin-left: 227px;
+// }
+
+.affers__text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: $black;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.affers__content {
+    width: 100%;
+    max-width: 184px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.affers__content--second {
+    max-width: 213px;
+    
+}
+
+.affers__info {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: $black;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.affers__more {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    margin: 0;
+    color: #000000;
+}
+
+
+@media only screen and (max-width:521px){
+    .affers {
+        padding-top: 30px;
+        padding-bottom: 33px;
+        margin-bottom: 100px;
+    }
+
+    .affers__wrapper {
+        margin-bottom: 85px;
+    }
+
+    .affers__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .affers__item--second{
+        margin-top: 66px;
+    }
+    
+}

@@ -1,0 +1,91 @@
+.quation {
+    margin-bottom: 150px;
+}
+
+.quation__inner {
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.quation__title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    color: $black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.quation__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: $black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.quation__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.quation__item {
+    border-bottom: 1px solid #E7E7E7 ;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    position: relative;
+
+    &::before{
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        background-image: url("../img/plus_circle.svg");
+        background-repeat: no-repeat;
+        background-size: 24px 24px;
+        content: "";
+    }
+}
+
+.quation__item--first{
+    padding-top: 0;
+}
+
+.quation__item--second{
+    padding-bottom: 22px;
+
+    &::before{
+        background-image: url("../img/minus_circle.svg");
+    }
+}
+
+.quation__info {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0;
+    padding-left: 40px;
+    
+    
+}
+
+.quation__information {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 14px;
+    padding-left: 40px;
+}
+.quation__theme {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    color: $black;
+}

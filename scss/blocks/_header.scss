@@ -46,6 +46,7 @@
 .menu__item--in {
 }
 .menu__sign-in {
+    display: block;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
@@ -55,10 +56,9 @@
     border: 1px solid #BCD0E5;
     border-radius: 4px;
 }
-.menu__item--up {
-    
-}
+
 .menu__sing-up {
+    display: block;
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
